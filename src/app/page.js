@@ -1,4 +1,3 @@
-// app/page.js
 'use client'
 
 import ApplicationModal from './components/ApplicationModal'
