@@ -16,6 +16,16 @@ module.exports = {
         'dark-gray': '#64748b',
         'light-gray': '#e2e8f0',
       },
+      animation: {
+        shine: "shine 2s linear infinite",
+        "spin-slow": "spin 1.5s linear infinite",
+      },
+      keyframes: {
+        shine: {
+          "0%": { transform: "translateX(-100%)" },
+          "100%": { transform: "translateX(200%)" },
+        },
+      },
     },
   },
   plugins: [],
