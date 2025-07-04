@@ -329,7 +329,7 @@ const ApplicationModal = ({ jobTitle = 'Position', onClose }) => {
                       onChange={handleInputChange}
                       required
                       className={`w-full pl-10 pr-4 py-2 border ${formErrors.phone ? 'border-red-500' : 'border-[#F7C229]/30'} rounded-lg focus:ring-2 focus:ring-[#F7C229] focus:border-[#F7C229] transition-all duration-200 shadow-sm font-sans`}
-                      placeholder="(123) 456-7890"
+                      placeholder="09XX XXX XXXX"
                       pattern="[0-9()\-\s]+"
                     />
                   </div>
