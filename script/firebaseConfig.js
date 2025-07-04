@@ -3,7 +3,7 @@ import { getStorage } from "firebase/storage";
 import { getFirestore } from "firebase/firestore"; 
 // Only initialize once (for Next.js hot-reloading)
 const firebaseConfig = {
-  apiKey: "AIzaSyAZU33VLCtV3AEfGKSX_xpXOCAePiHyZ0M",
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
   authDomain: "ingi-applicant.firebaseapp.com",
   projectId: "ingi-applicant",
   storageBucket: "ingi-applicant.firebasestorage.app",
