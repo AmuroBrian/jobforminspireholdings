@@ -89,7 +89,7 @@ const FileUpload = ({ resumeName, onFileChange, onClear, hasError }) => {
         className="hidden"
         required
       />
-      <p className="mt-1 text-xs text-gray-500 font-sans">PDF, DOC, DOCX, TXT (Max 50MB)</p>
+      <p className="mt-1 text-xs text-gray-500 font-sans">PDF, DOC, DOCX, TXT (Max 10MB)</p>
     </div>
   );
 };
